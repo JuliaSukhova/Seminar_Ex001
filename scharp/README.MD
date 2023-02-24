@@ -9,7 +9,7 @@
 - Seminars
   - Seminars_01
     - Ex001 
-## Вывести квадрат числа | [КОД](Seminars\Seminars_01\Ex001\Program.cs)
+## Вывести квадрат числа | [КОД](Seminars/Seminars_01/Ex001/Program.cs)
    - Ex002 [КОД](Seminars\Seminars_01\Ex002\Program.cs)
    - Ex003 [КОД](Seminars\Seminars_01\Ex003\Program.cs)
 
