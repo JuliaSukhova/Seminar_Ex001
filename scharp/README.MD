@@ -2,7 +2,7 @@
   - Homework_01
     - Ex002 
 #### Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее. | [Блок-схема](Homework/Homework_01/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%202/diagram.drawio.png) >>> [КОД](Homework/Homework_01/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%202/Program.cs)
-    - Ex004
+- Ex004
 #### Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел. | [Блок-схема](Homework/Homework_01/Ex004/diagram.drawio.png) >>> [код](Homework/Homework_01/Ex004/Program.cs)
 
   - Homework_02
