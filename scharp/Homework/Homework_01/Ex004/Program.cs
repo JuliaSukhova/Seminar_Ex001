@@ -18,3 +18,8 @@ if (c >= a && c > b)
 {
     Console.WriteLine(c);
 }
+else
+{
+   Console.WriteLine(a);
+
+}
