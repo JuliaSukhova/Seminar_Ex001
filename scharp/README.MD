@@ -16,8 +16,12 @@
   - Lectures_02
 - Ex001
 #### Максимум из 9 чисел | [Код](/Lectures/Lectures_02/Ex001/Program.cs)
+
 - Ex002
 #### Массивы | [Код](/Lectures/Lectures_02/Ex002/Program.cs)
+
+-Ex003
+#### Алгоритм | [Код](/Lectures/Lectures_02/Ex003/Program.cs)
 
   - Lectures_03
 - Seminars
