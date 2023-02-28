@@ -14,6 +14,11 @@
 - Lectures
   - Lectures_01
   - Lectures_02
+- Ex001
+#### Максимум из 9 чисел | [Код](/Lectures/Lectures_02/Ex001/Program.cs)
+- Ex002
+#### Массивы | [Код](/Lectures/Lectures_02/Ex002/Program.cs)
+
   - Lectures_03
 - Seminars
   - Seminars_01
@@ -24,4 +29,5 @@
    - Ex003 [КОД](Seminars/Seminars_01/Ex003/Program.cs)
 
 - Seminars_02
+  - Ex001 [Код](/Seminars/Seminars_02/Ex001/Program.cs)
 - Seminars_03
