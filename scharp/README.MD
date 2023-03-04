@@ -12,7 +12,7 @@
   - Homework_02
   - Homework_03
 - Ex001
-#### Напишите метод(-ы), который принимает на вход пятизначное число и проверяет, является ли оно палиндромом. | [Блок-схема](Homework/Homework_03/diagram.drawio.png) >>> [Код](Homework/Homework_03/Program.cs)
+#### Напишите метод(-ы), который принимает на вход пятизначное число и проверяет, является ли оно палиндромом. | [Блок-схема](Homework/Homework_03/Ex001/diagram.drawio.png) >>> [Код](Homework/Homework_03/Ex001/Program.cs)
 
 - Lectures
   - Lectures_01
