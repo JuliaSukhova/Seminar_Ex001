@@ -1,26 +1,28 @@
-﻿int x1 = Name("x", "A");
-int y1 = Name("y", "A");
-int z1 = Name("z", "A");
-int x2 = Name("x", "B");
-int y2 = Name("y", "B");
-int z2 = Name("z", "B");
+﻿int x_1, y_1, z_1, x_2, y_2, z_2;
 
-int Name(string coorName, string pointName)
+x_1 = Name("x", "A");
+y_1 = Name("y","A");
+z_1 = Name("z","A");
+x_2 = Name("x","B");
+y_2 = Name("y","B");
+z_2 = Name("z","B");
+
+int Name(string kord, string tochka)
 {
-    Console.Write($"Введите координату {coorName} точки {pointName}: ");
+    Console.Write($"Введите координату {kord} точки {tochka}: ");
     return Convert.ToInt32(Console.ReadLine());
 }
 
 
-double result (double x1, double x2, 
-                double y1, double y2, 
-                double z1, double z2)
+double result (double x_1, double x_2, 
+                double y_1, double y_2, 
+                double z_1, double z_2)
 {
-  return Math.Sqrt(Math.Pow((x2-x1), 2) + 
-                   Math.Pow((y2-y1), 2) + 
-                   Math.Pow((z2-z1), 2));
+  return Math.Sqrt(Math.Pow((x_2-x_1), 2) + 
+                   Math.Pow((y_2-y_1), 2) + 
+                   Math.Pow((z_2-z_1), 2));
 }
 
-double segmentLength =  Math.Round(result (x1, x2, y1, y2, z1, z2), 2 );
+double answer =  Math.Round(result (x_1, x_2, y_1, y_2, z_1, z_2), 2 );
 
-Console.WriteLine(segmentLength);
+Console.WriteLine(answer);
