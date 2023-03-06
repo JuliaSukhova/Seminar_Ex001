@@ -11,8 +11,14 @@
 
   - Homework_02
   - Homework_03
-- Ex001
+- Ex19
 #### Напишите метод(-ы), который принимает на вход пятизначное число и проверяет, является ли оно палиндромом. | [Блок-схема](Homework/Homework_03/Ex001/diagram.drawio.png) >>> [Код](Homework/Homework_03/Ex001/Program.cs)
+
+- Ex21
+#### Напишите метод(-ы), который принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве. | [Блок-схема](Homework/Homework_03/Ex002/diagram.drawio.png) >>> [Код](Homework/Homework_03/Ex002/Program.cs)
+
+- Ex23
+
 
 - Lectures
   - Lectures_01
