@@ -18,7 +18,7 @@
 #### Напишите метод(-ы), который принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве. | [Блок-схема](Homework/Homework_03/Ex002/diagram.drawio.png) >>> [Код](Homework/Homework_03/Ex002/Program.cs)
 
 - Ex23
-
+#### Напишите метод(-ы), который принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N. | [Блок-схема](Homework/Homework_03/Ex003/diagram.drawio.png) >>> [Код](Homework/Homework_03/Ex003/Program.cs)
 
 - Lectures
   - Lectures_01
