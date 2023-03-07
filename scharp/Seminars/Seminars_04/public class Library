@@ -1,0 +1,12 @@
+{
+    public static void NewMethod();
+}
+{
+    public static int A = NewMethod2();
+}
+{
+    public static void NewMethod1;
+}
+{
+    public static int NewMethod2;
+}
