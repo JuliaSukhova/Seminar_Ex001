@@ -5,3 +5,5 @@ public class Library
     public static void NewMethod1;
     public static int NewMethod2;
 }
+
+using static Library;
