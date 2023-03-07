@@ -21,10 +21,9 @@ static void NewMethod()
 
 static void NewMethod1(ref int i, ref int n, int A)
 {
-    while (i <= A)
+    for (i = 1; i <= A; i++)
     {
         n = n + i;
-        i++;
     }
 }
 
