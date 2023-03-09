@@ -20,6 +20,10 @@
 - Ex23
 #### Напишите метод(-ы), который принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N. | [Блок-схема](Homework/Homework_03/Ex003/diagram.drawio.png) >>> [Код](Homework/Homework_03/Ex003/Program.cs)
 
+  - Homework_03
+- Ex25
+#### Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B. | [Блок-схема](Homework/Homework_04/Ex001/diagram.drawio.png) >>> [Код](Homework/Homework_04/Ex001/Program.cs)
+
 - Lectures
   - Lectures_01
   - Lectures_02
