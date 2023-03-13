@@ -10,21 +10,21 @@ int Prom(string message) // ввод числа с экрана
 }
 
 // метод для случайных чисел
-int[] ArrayNum(int Length, int min, int max)
+int[] ArrayNum(int Length, int minV, int maxV)
 {
     int[] array = new int[Length]; //объявляем массив
     Random random = new Random();
-    for (int i = 0; i < Length; i++);
+    for (int i = 0; i < Length; i++)
     {
-        array[i]= random.Next(min,max + 1); // заполняем диапазон 
+        array[i]= random.Next(minV,maxV + 1); // заполняем диапазон 
     }
-    return random;
+    return array;
 }
 
 void Print(int[] array)
 {
     Console.Write("[");
-    for (int i = 0; i < array.Length - 1; i++); // вывод значения массивы
+    for (int i = 0; i < array.Length - 1; i++) // вывод значения массивы
     {
         Console.Write($"{array[i]},");
     }
@@ -34,6 +34,6 @@ void Print(int[] array)
 
 int Length = Prom ("Длина массива: ");
 int min = Prom("Начальное значение: ");
-int max = Prom("Конечное значение: ");
-int [] array = ArrayNum(Length,min,max); // заполнение массива
+int maxV = Prom("Конечное значение: ");
+int [] array = ArrayNum(Length,min,maxV); // заполнение массива
 Print(array); // вывод
