@@ -28,20 +28,24 @@ int[] metod1(int Length)
 int[] num = metod1(size);
 int count = 0;
 
-count = NewMethod(num, count);
-
-Console.Write(" ");
-Console.WriteLine($"{count} ");
-
-static int NewMethod(int[] num, int count)
+for(int n = 0; n < num.Length; n++)
 {
-    for (int n = 0; n < num.Length; n++)
+    if (num[n] % 2 == 0)
     {
-        Console.WriteLine(num[n]);
-        if (num[n] % 2 == 0)
-        {
-            count++;
-        }
+        count++;
     }
-    return count;
 }
+
+void PrintArray(int[] num, int count)
+{
+    Console.Write("[ ");
+    for(int n = 0; n < num.Length; n++)
+        {
+            Console.Write(num[n] + ", ");
+        }
+    Console.Write("]");
+    Console.WriteLine();
+}
+
+PrintArray(num,count);
+Console.Write($" -> {count} ");
