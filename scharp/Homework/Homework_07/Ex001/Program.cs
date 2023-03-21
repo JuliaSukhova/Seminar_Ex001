@@ -7,10 +7,10 @@
 using System;
 using static System.Console;
 
-Write("Введите количество строк массива: ");
+Write("Введите количество столбцов массива: ");
 int info =int.Parse(ReadLine());
 
-Write("Введите количество столбцов массива: ");
+Write("Введите количество строк массива: ");
 int pillar=int.Parse(ReadLine());
 
 double[,] array = GetArray(info , pillar, -10, 10);
