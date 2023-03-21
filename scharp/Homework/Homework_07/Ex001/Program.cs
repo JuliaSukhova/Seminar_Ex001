@@ -13,29 +13,29 @@ int info =int.Parse(ReadLine());
 Write("Введите количество столбцов массива: ");
 int pillar=int.Parse(ReadLine());
 
-int[,] array = GetArray(info , pillar, -10, 10);
+double[,] array = GetArray(info , pillar, -10, 10);
 PrintArray(array);
 
-int[,] GetArray(int m, int n, int minValue, int maxValue)
+double[,] GetArray(int m, int n, double minValue, double maxValue)
 {
-    int[,] result = new int[m, n];
+    double[,] result = new double[m, n];
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
         {
-            result[i, j] = new Random().Next(minValue, maxValue + 1);
+            result[i, j] = new Random().NextDouble()* ((maxValue - minValue) + minValue);;
         }
     }
     return result;
 }
 
-void PrintArray(int[,] Noutput)
+void PrintArray(double[,] Noutput)
 {
     for (int i = 0; i < Noutput.GetLength(0); i++)
     {
         for (int j = 0; j < Noutput.GetLength(1); j++)
         {
-            Write($"{Noutput[i,j]} ");
+            Write($"{Noutput[i,j]: 0.#} ");
         }
         WriteLine();
     }
